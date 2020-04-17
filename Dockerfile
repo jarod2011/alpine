@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.10
 LABEL maintainer="xinghen249@gmail.com"
 
 RUN apk --no-cache add -U tzdata
