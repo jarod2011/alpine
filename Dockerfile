@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.13
 LABEL maintainer="xinghen249@gmail.com"
 
 RUN apk --no-cache add -U tzdata ffmpeg
